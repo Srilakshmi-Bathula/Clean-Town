@@ -1,0 +1,17 @@
+{
+  "name": "cleantown",
+  "version": "1.0.0",
+  "description": "CleanTown is an event-driven smart waste management system where users can report issues, swap reusable items, and earn reward points.",
+  "main": "index.js",
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && node --watch server.js",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
